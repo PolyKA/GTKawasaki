@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--    Shared resource-->
+    <string name="cancel">Отменить</string>
+    <string name="background">Background</string>
+
+<!--    Connect fragment-->
+    <string name="cf_text_connect_address">Адрес для подключения</string>
+    <string name="cf_value_default_connection">192.168.0.2</string>
+    <string name="cf_text_connected">Подключиться</string>
+    <string name="cf_text_connection">Подключение к роботу</string>
+    <string name="cf_text_kawasaki_robot">Kawasaki robot</string>
+
+</resources>

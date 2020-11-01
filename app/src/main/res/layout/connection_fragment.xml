@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.connect.ConnectionFragment">
+
+        <ImageView
+            android:id="@+id/iv_connect_background"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:scaleType="centerCrop"
+            android:src="@drawable/background"
+            android:contentDescription="@string/background"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_connect_header"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+
+            android:text="@string/cf_text_connection"
+            android:textAlignment="center"
+            android:textAppearance="@style/basicTextStyle.h0"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_connect_image_animation"
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="32dp"
+
+            android:src="@drawable/robot_image"
+            android:contentDescription="@string/cf_text_kawasaki_robot"
+
+            app:layout_constraintBottom_toTopOf="@+id/cl_connect_bottom_panel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_connect_header" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_connect_bottom_panel"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/rounded_layout_background"
+            android:gravity="center"
+            android:orientation="vertical"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_connect_address"
+                style="@style/MyTextInputLayout"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="16dp"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_connect_address"
+                    style="@style/MyTextInputEditText"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:hint="@string/cf_text_connect_address"
+                    android:inputType="number|numberDecimal"
+                    android:digits="0123456789."
+                    android:singleLine="true"
+
+                    android:text="@string/cf_value_default_connection"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/b_connect"
+                style="@style/basicButton"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="125dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="125dp"
+
+                android:text="@string/cf_text_connected"
+
+                app:layout_constraintBottom_toTopOf="@+id/b_connect_cancle"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/til_connect_address" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/b_connect_cancle"
+                style="@style/basicButton"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginEnd="130dp"
+                android:layout_marginBottom="16dp"
+
+                android:text="@string/cancel"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

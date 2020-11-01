@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name" translatable="false">GTKawasaki</string>
+
+<!--    Shared resource-->
+    <string name="background">Background</string>
+    <string name="cancel">Cancel</string>
+
+<!--    Connect fragment-->
+    <string name="cf_text_connect_address">Address to connect</string>
+    <string name="cf_value_default_connection">192.168.0.2</string>
+    <string name="cf_text_connected">Connected</string>
+    <string name="cf_text_connection">Connecting to the robot</string>
+    <string name="cf_text_kawasaki_robot">Kawasaki robot</string>
+
+</resources>
