@@ -13,10 +13,10 @@
 
             <androidx.fragment.app.FragmentContainerView
                 android:id="@+id/fragmentContainerView2"
-                android:name="com.github.polyKa.gtKawasaki.view.ShowProgramFragment"
+                android:name="com.github.polyKa.gtKawasaki.view.ProgramAndPointTabHostFragment"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                tools:layout="@layout/fragment_show_program" />
+                tools:layout="@layout/fragment_program_and_point_tab_host" />
         </androidx.core.widget.NestedScrollView>
 
         <com.google.android.material.bottomappbar.BottomAppBar
@@ -27,12 +27,6 @@
             app:fabAlignmentMode="end"
             app:hideOnScroll="true"
             app:menu="@menu/menu_bottom_panel">
-
-            <include layout="@layout/bottom_app_buttons"
-                android:id="@+id/bottom_a_bar_buttons"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"/>
 
         </com.google.android.material.bottomappbar.BottomAppBar>
 
