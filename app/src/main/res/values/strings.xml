@@ -7,7 +7,7 @@
 
     <!--    Connect fragment-->
     <string name="cf_text_connect_address">Address to connect</string>
-    <string name="cf_value_default_connection">192.168.0.2</string>
+    <string name="cf_value_default_connection" translatable="false">192.168.0.2</string>
     <string name="cf_text_connected">Connected</string>
     <string name="cf_text_connection">Connecting to the robot</string>
     <string name="cf_text_kawasaki_robot">Kawasaki robot</string>
@@ -15,8 +15,14 @@
     <string name="add_button" translatable="false">+</string>
     <string name="bottom_panel_connect">Connect</string>
     <string name="bottom_panel_disconnect">Disconnect</string>
-    <string name="bottom_panel_run">Run</string>
+    <string name="bottom_panel_run">Run program</string>
     <string name="bottom_menu_add_point">Add point</string>
-    <string name="bottom_panel_pause">Pause</string>
-    <string name="bottom_panel_stop">Stop</string>
+    <string name="bottom_panel_pause">Pause program</string>
+    <string name="bottom_panel_stop">Stop program</string>
+
+    <!-- Commands -->
+    <string name="command_open_gripper">Open gripper</string>
+    <string name="command_close_gripper">Close gripper</string>
+    <string name="command_move_to_point">Move to point</string>
+    <string name="command_move_by_coordinate">Move by coordinate</string>
 </resources>

@@ -26,7 +26,7 @@ class ProgramRecyclerViewAdapter(private var items: MutableList<Command>,
         fun bind(program: Command, listener: OnItemClickListener?,
                  deleteListener: OnDeleteButtonClick
         ) {
-            binding.command = program.commandText
+            binding.tvProgramName.setText(program.commandText)
             binding.ivCommandImage.setImageResource(program.image)
 
             if (listener != null) {

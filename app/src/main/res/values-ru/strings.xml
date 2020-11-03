@@ -7,15 +7,18 @@
 
 <!--    Connect fragment-->
     <string name="cf_text_connect_address">Адрес для подключения</string>
-    <string name="cf_value_default_connection">192.168.0.2</string>
     <string name="cf_text_connected">Подключиться</string>
     <string name="cf_text_connection">Подключение к роботу</string>
     <string name="cf_text_kawasaki_robot">Kawasaki robot</string>
-    <string name="bottom_panel_connect">Link</string>
-    <string name="bottom_panel_run">RUN</string>
-    <string name="bottom_menu_add_point">Add point</string>
-    <string name="bottom_panel_pause">Pause</string>
-    <string name="bottom_panel_stop">Stop</string>
-    <string name="bottom_panel_disconnect">Disconnect</string>
+    <string name="bottom_panel_connect">Подключиться</string>
+    <string name="bottom_panel_run">Запуск програмы</string>
+    <string name="bottom_menu_add_point">Добавить точку</string>
+    <string name="bottom_panel_pause">Поставить на паузу програму</string>
+    <string name="bottom_panel_stop">Остановить програму</string>
+    <string name="bottom_panel_disconnect">Отключиться</string>
+    <string name="command_open_gripper">Открыть захват</string>
+    <string name="command_close_gripper">Закрыть захват</string>
+    <string name="command_move_to_point">Переместиться в точку</string>
+    <string name="command_move_by_coordinate">Переместиться по координатам</string>
 
 </resources>
