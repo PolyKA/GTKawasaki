@@ -1,4 +1,4 @@
-package com.github.polyKa.gtKawasaki.customRV
+package com.github.polyKa.gtKawasaki.helpers
 
 import android.content.res.Resources
 import androidx.lifecycle.MutableLiveData
@@ -6,11 +6,10 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.github.polyKa.gtKawasaki.view.MainActivity
-import com.github.polyKa.gtKawasaki.customRV.adapters.protocols.ItemTouchHelperAdapter
-import com.github.polyKa.gtKawasaki.customRV.adapters.ProgramRecyclerViewAdapter
-import com.github.polyKa.gtKawasaki.customRV.adapters.protocols.OnDeleteButtonClick
-import com.github.polyKa.gtKawasaki.customRV.adapters.protocols.OnItemClickListener
-import com.github.polyKa.gtKawasaki.customRV.helpers.SimpleItemTouchHelperCallback
+import com.github.polyKa.gtKawasaki.adapters.recyclerView.protocols.ItemTouchHelperAdapter
+import com.github.polyKa.gtKawasaki.adapters.recyclerView.protocols.OnDeleteButtonClick
+import com.github.polyKa.gtKawasaki.adapters.recyclerView.protocols.OnItemClickListener
+import com.github.polyKa.gtKawasaki.adapters.recyclerView.ProgramRecyclerViewAdapter
 import com.github.polyKa.gtKawasaki.repository.commands.Command
 import java.util.*
 

@@ -1,8 +1,8 @@
-package com.github.polyKa.gtKawasaki.customRV.helpers
+package com.github.polyKa.gtKawasaki.helpers
 
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
-import com.github.polyKa.gtKawasaki.customRV.adapters.protocols.ItemTouchHelperAdapter
+import com.github.polyKa.gtKawasaki.adapters.recyclerView.protocols.ItemTouchHelperAdapter
 
 class SimpleItemTouchHelperCallback(val mAdapter: ItemTouchHelperAdapter): ItemTouchHelper.Callback() {
 

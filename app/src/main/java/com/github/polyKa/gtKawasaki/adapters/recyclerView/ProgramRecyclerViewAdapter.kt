@@ -1,12 +1,12 @@
-package com.github.polyKa.gtKawasaki.customRV.adapters
+package com.github.polyKa.gtKawasaki.adapters.recyclerView
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.github.polyKa.gtKawasaki.databinding.ItemToProgramRecyclerViewBinding
-import com.github.polyKa.gtKawasaki.customRV.adapters.protocols.ItemTouchHelperAdapter
-import com.github.polyKa.gtKawasaki.customRV.adapters.protocols.OnDeleteButtonClick
-import com.github.polyKa.gtKawasaki.customRV.adapters.protocols.OnItemClickListener
+import com.github.polyKa.gtKawasaki.adapters.recyclerView.protocols.ItemTouchHelperAdapter
+import com.github.polyKa.gtKawasaki.adapters.recyclerView.protocols.OnDeleteButtonClick
+import com.github.polyKa.gtKawasaki.adapters.recyclerView.protocols.OnItemClickListener
 import com.github.polyKa.gtKawasaki.repository.commands.Command
 
 class ProgramRecyclerViewAdapter(private var items: MutableList<Command>,

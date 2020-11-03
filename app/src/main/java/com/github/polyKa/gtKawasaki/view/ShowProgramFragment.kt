@@ -8,9 +8,9 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.MutableLiveData
 import com.github.polyKa.gtKawasaki.R
-import com.github.polyKa.gtKawasaki.customRV.CustomizationCommandRecyclerView
-import com.github.polyKa.gtKawasaki.customRV.adapters.protocols.OnDeleteButtonClick
-import com.github.polyKa.gtKawasaki.customRV.adapters.protocols.OnItemClickListener
+import com.github.polyKa.gtKawasaki.helpers.CustomizationCommandRecyclerView
+import com.github.polyKa.gtKawasaki.adapters.recyclerView.protocols.OnDeleteButtonClick
+import com.github.polyKa.gtKawasaki.adapters.recyclerView.protocols.OnItemClickListener
 import com.github.polyKa.gtKawasaki.databinding.FragmentShowProgramBinding
 import com.github.polyKa.gtKawasaki.repository.commands.*
 

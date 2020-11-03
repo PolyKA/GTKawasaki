@@ -1,4 +1,4 @@
-package com.github.polyKa.gtKawasaki.customRV.adapters.protocols
+package com.github.polyKa.gtKawasaki.adapters.recyclerView.protocols
 
 /**
  * Interface that defines the action when clicking the delete button.
