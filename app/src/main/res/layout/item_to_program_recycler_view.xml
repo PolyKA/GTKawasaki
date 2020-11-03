@@ -7,12 +7,6 @@
     android:clickable="true"
     android:foreground="?android:attr/selectableItemBackground">
 
-    <data>
-        <variable
-            name="command"
-            type="String" />
-    </data>
-
     <androidx.cardview.widget.CardView
         android:id="@+id/command_card"
         android:layout_width="match_parent"

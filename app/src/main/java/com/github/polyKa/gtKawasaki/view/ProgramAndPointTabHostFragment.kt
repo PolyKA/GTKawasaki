@@ -12,18 +12,8 @@ import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 
 class ProgramAndPointTabHostFragment : Fragment() {
-    // When requested, this adapter returns a DemoObjectFragment,
-    // representing an object in the collection.
     private lateinit var programAndPointFragmentPagerAdapter: ProgramAndPointFragmentPagerAdapter
     private lateinit var viewPager: ViewPager2
-
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_program_and_point_tab_host, container, false)
-    }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         programAndPointFragmentPagerAdapter = ProgramAndPointFragmentPagerAdapter(this)
