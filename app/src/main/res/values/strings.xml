@@ -25,4 +25,8 @@
     <string name="command_close_gripper">Close gripper</string>
     <string name="command_move_to_point">Move to point</string>
     <string name="command_move_by_coordinate">Move by coordinate</string>
+
+    <!-- Commands -->
+    <string name="tab_menu_program">Program</string>
+    <string name="tab_menu_point">Points</string>
 </resources>

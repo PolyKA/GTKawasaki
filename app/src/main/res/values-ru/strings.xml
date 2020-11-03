@@ -20,5 +20,7 @@
     <string name="command_close_gripper">Закрыть захват</string>
     <string name="command_move_to_point">Переместиться в точку</string>
     <string name="command_move_by_coordinate">Переместиться по координатам</string>
+    <string name="tab_menu_program">Программа</string>
+    <string name="tab_menu_point">Точки</string>
 
 </resources>

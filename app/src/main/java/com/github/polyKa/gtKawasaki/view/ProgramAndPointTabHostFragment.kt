@@ -34,8 +34,8 @@ class ProgramAndPointTabHostFragment : Fragment() {
         val tabLayout = view.findViewById<TabLayout>(R.id.tabs)
         TabLayoutMediator(tabLayout, viewPager) { tab, position ->
             when(position){
-                0 -> tab.text = "Program"
-                1 -> tab.text = "Points"
+                0 -> tab.text = resources.getText(R.string.tab_menu_program)
+                1 -> tab.text = resources.getText(R.string.tab_menu_point)
             }
         }.attach()
     }
