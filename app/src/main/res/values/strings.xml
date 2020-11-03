@@ -14,11 +14,9 @@
     <!-- Bottom panel -->
     <string name="add_button" translatable="false">+</string>
     <string name="bottom_panel_connect">Connect</string>
+    <string name="bottom_panel_disconnect">Disconnect</string>
     <string name="bottom_panel_run">Run</string>
     <string name="bottom_menu_add_point">Add point</string>
     <string name="bottom_panel_pause">Pause</string>
     <string name="bottom_panel_stop">Stop</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-
 </resources>

@@ -16,5 +16,6 @@
     <string name="bottom_menu_add_point">Add point</string>
     <string name="bottom_panel_pause">Pause</string>
     <string name="bottom_panel_stop">Stop</string>
+    <string name="bottom_panel_disconnect">Disconnect</string>
 
 </resources>
