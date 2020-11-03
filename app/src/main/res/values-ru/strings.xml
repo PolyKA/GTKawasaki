@@ -11,5 +11,10 @@
     <string name="cf_text_connected">Подключиться</string>
     <string name="cf_text_connection">Подключение к роботу</string>
     <string name="cf_text_kawasaki_robot">Kawasaki robot</string>
+    <string name="bottom_panel_connect">Link</string>
+    <string name="bottom_panel_run">RUN</string>
+    <string name="bottom_menu_add_point">Add point</string>
+    <string name="bottom_panel_pause">Pause</string>
+    <string name="bottom_panel_stop">Stop</string>
 
 </resources>

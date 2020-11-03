@@ -8,8 +8,8 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView"
-        android:name="com.github.polyKa.gtKawasaki.view.connect.ConnectionFragment"
+        android:name="com.github.polyKa.gtKawasaki.view.MainScreenFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout="@layout/connection_fragment" />
+        tools:layout="@layout/fragment_main_screen_fragment" />
 </FrameLayout>
